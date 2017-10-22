@@ -21,7 +21,6 @@ public class Titulo {
     }
     
     //Métodos
- 
     public void agregarNombre(String name) {
         nombre = name;
     }

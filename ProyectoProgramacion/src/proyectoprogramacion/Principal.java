@@ -13,12 +13,12 @@ public class Principal {
 
     public static void main(String[] args) {
 
+    //objetos docente 1 y docente 2 con sus datos
     
-        Docente docente1=new Docente("Luis V.","Perez J.","Universidad Politécnica","Licenciado en Físico Matemáticas","Universidad Valenciana","Magister en Docencia Matemática","Matemáticas",8,"Física",6);
-        Docente docente2=new Docente("Ana M.","Velez P.","Universidad Salesiana","Licenciado en Ciencias Sociales","Universidad Cataluña","Magister en Docencia Social","Sociales",9,"Literatura",10);
+        Docente docente1 = new Docente("Luis V.","Perez J.","Universidad Politécnica","Licenciado en Físico Matemáticas","Universidad Valenciana","Magister en Docencia Matemática","Matemáticas",8,"Física",6);
+        Docente docente2 = new Docente("Ana M.","Velez P.","Universidad Salesiana","Licenciado en Ciencias Sociales","Universidad Cataluña","Magister en Docencia Social","Sociales",9,"Literatura",10);
        
-        
-        
+       
         
         System.out.println("Nombres: "+docente1.obtenerNombres()+"\n");
         System.out.println("Apellidos: "+docente1.obtenerApellidos()+"\n");
@@ -43,7 +43,6 @@ public class Principal {
         
         System.out.println("\tNombre: "+docente1.obtenerAsignatura1().obtenerNombre()+"\n");
         System.out.println("\tCréditos: "+docente1.obtenerAsignatura1().obtenerCreditos()+"\n");
-        
         
         System.out.println("-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_\n");
         

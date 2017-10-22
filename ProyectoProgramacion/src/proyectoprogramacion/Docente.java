@@ -18,14 +18,16 @@ public class Docente {
     private Asignatura asignatura_1;
     private Asignatura asignatura2;
  
-    //Constructo
-    public Docente(String names, String names2, String nameTitulo, String nameUniversidad, String nameTitulo1, String nameUniversidad1, String name_Asignatura, int credits, String name_Asignatura1, int credits1) {
+    //Constructor
+    public Docente(String names, String names2, String nameTitulo, String nameUniversidad, 
+            String nameTitulo1, String nameUniversidad1, String name_Asignatura, int credits, String name_Asignatura1,  int credits1) {
+        
         nombres = names;
         apellidos = names2;
-        titulo_tercer_nivel= new Titulo(nameTitulo,nameUniversidad);
-        titulo_cuarto_nivel= new Titulo(nameTitulo1,nameUniversidad1);
-        asignatura_1=new Asignatura(name_Asignatura,credits);
-        asignatura2=new Asignatura(name_Asignatura1,credits1);
+        titulo_tercer_nivel= new Titulo(nameTitulo, nameUniversidad);
+        titulo_cuarto_nivel= new Titulo(nameTitulo1, nameUniversidad1);
+        asignatura_1=new Asignatura(name_Asignatura, credits);
+        asignatura2=new Asignatura(name_Asignatura1, credits1);
     }
     
     //Método
